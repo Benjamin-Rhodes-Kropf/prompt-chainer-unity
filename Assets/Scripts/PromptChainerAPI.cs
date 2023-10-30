@@ -27,7 +27,7 @@ public class PromptChainerAPI : MonoBehaviour
     [System.Serializable]
     public class Variables
     {
-        //define all of your variables here in this instance I have "InputA" and "InputB"
+        //define all of your variables here in this instance I have "InputA" and "InputB" (make sure they match with your variables in prompt-chainer.io)
         public string InputA;
         public string InputB;
     }
@@ -39,7 +39,7 @@ public class PromptChainerAPI : MonoBehaviour
         public Variables variables;
     }
     
-    //output space this does not need to be modifed
+    //output space this must not be changed as it is dependant on prompt-chainer.io api response
     [System.Serializable]
     public class OutputObjectList
     {
